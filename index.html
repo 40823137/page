@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>40823137 表單</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            </form>
+        </div>s
+    </nav>
+    <div class="jumbotron">
+        <h1 class="display-3">網路沉迷問卷表單</h1>
+        </p>
+    </div>
+    <div class="ml-5 mr-5">
+        <form action="check.php" method="post">
+            <div class="form-group">
+                <label for="">e-mail</label>
+                <input type="text" name="e-mail" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted"></small>
+            </div>
+            <div class="form-group">
+                <label for="">password</label>
+                <input type="password" name="password" id="password" class="form-control" placeholder=""
+                    aria-describedby="helpId">
+                <small id="helpId" class="text-muted"></small>
+            </div>
+            <h2 style="color: rgb(67, 133, 153);">從哪個年紀開始接觸網路</h2>
+            <p> </p>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="sexx" id="" value="1" checked>
+                    幼稚園
+                </label>
+                <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="sexx" id="" value="0">
+                    國小
+                </label>
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="sexx" id="" value="0">
+                    高中
+                </label>
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="sexx" id="" value="0">
+                    大學
+                </label>
+
+            </div>
+            <p> </p>
+            <h2 style="color: rgb(67, 133, 153);">每天使用網路多久</h2>
+            <p> </p>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="time" id="" value="" checked>
+                    1hr以下
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    1hr~5hr
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    5hr~10hr
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    10hr以上
+                </label>
+            </div>
+            <p> </p>
+            <h2 style="color: rgb(67, 133, 153);">使用網路的用途</h2>
+            <p> </p>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="time" id="" value="" checked>
+                    查詢資料
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    網路交友
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    購買物品
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    遊戲
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    分享生活動態
+                </label>
+                <label class="form-check-label ml-4">
+                    <input type="radio" class="form-check-input" name="time" id="" value="">
+                    做作業
+                </label>
+            </div>
+            <p> </p>
+            <h2 style="color: rgb(67, 133, 153);">是否有因為網路時間和家人起爭執</h2>
+            <p> </p>
+            <label class="form-check-label ml-4">
+                <input type="radio" class="form-check-input" name="time" id="" value="">
+                有
+            </label>
+            <label class="form-check-label ml-4">
+                <input type="radio" class="form-check-input" name="time" id="" value="">
+                無
+            </label>
+            <p> </p>
+            <h2 style="color: rgb(67, 133, 153);">是否有因長時間使用網路造成身體不適</h2>
+            <p> </p>
+            <label class="form-check-label ml-4">
+                <input type="radio" class="form-check-input" name="time" id="" value="">
+                有
+            </label>
+            <label class="form-check-label ml-4">
+                <input type="radio" class="form-check-input" name="time" id="" value="">
+                無
+            </label>
+            <p> </p>
+            <button type="submit" class="btn btn-primary">送出</button>
+        </form>
+
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
